@@ -1,4 +1,5 @@
-﻿using DrugsLedger.Desktop.Windows;
+﻿using DrugsLedger.Desktop.ViewModels;
+using DrugsLedger.Desktop.Windows;
 using System.Windows;
 
 namespace DrugsLedger.Desktop
@@ -11,7 +12,7 @@ namespace DrugsLedger.Desktop
         protected override void OnStartup(StartupEventArgs e)
         {            
             Window window = new MainWindow();
-            //window.DataContext = new OpenViewModel();
+            window.DataContext = new MainViewModel();
             window.Show();
             base.OnStartup(e);
         }
