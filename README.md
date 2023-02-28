@@ -1,2 +1,2 @@
 # DrugsLedger
-Simple MAUI-App Example for database management
+Simple WPF-app for database management
