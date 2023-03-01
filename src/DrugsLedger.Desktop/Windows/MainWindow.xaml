@@ -12,7 +12,11 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <controls:NavigationBar Grid.Row="0" DataContext="{Binding Navigator}"/>
-        <ContentControl Grid.Row="1" Content="{Binding Navigator}" Margin="0 10 0 0"/>
+        <controls:NavigationBar Grid.Row="0" 
+                                DataContext="{Binding Navigator}"/>
+        <ContentControl Grid.Row="1" 
+                        Content="{Binding Navigator.CurrentViewModel, UpdateSourceTrigger=PropertyChanged}"  
+                        
+                        Margin="0 10 0 0"/>
     </Grid>
 </Window>

@@ -1,9 +1,7 @@
 ﻿using DrugsLedger.Persistance.Models.Base;
-using SimpleMvvm.Commands;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Configuration;
 using System.Linq;
 using System.Windows;
 

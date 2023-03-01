@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DrugsLedger.Persistance\DrugsLedger.Persistance.csproj" />
-    <ProjectReference Include="..\SimpleMvvm\SimpleMvvm.csproj" />
   </ItemGroup>
 
 </Project>

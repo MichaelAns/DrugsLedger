@@ -5,6 +5,6 @@ namespace SimpleMvvm.Navigators
     public interface INavigator
     {
         public ViewModel CurrentViewModel { get; set; }
-        public ICommand UpdateCurrentViewModelCommand { get; }
+        //public ICommand UpdateCurrentViewModelCommand { get; }
     }
 }

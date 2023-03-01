@@ -1,16 +1,12 @@
 ﻿using DrugsLedger.Desktop.ViewModels;
-using SimpleMvvm.Commands;
-using SimpleMvvm.Navigators;
-using System;
 
 namespace DrugsLedger.Desktop.Navigation
 {
     internal class UpdateCurrentViewModelCommand : Command
     {
+        private Navigator _navigator;
 
-        private INavigator _navigator;
-
-        public UpdateCurrentViewModelCommand(INavigator navigator)
+        public UpdateCurrentViewModelCommand(Navigator navigator)
         {
             _navigator = navigator;
         }
